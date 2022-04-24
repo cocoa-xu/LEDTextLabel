@@ -19,6 +19,8 @@
 		BF279A75268005FF00E349F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF279A73268005FF00E349F8 /* Main.storyboard */; };
 		BF279A78268005FF00E349F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF279A77268005FF00E349F8 /* main.m */; };
 		BF279A7D2680061B00E349F8 /* libLEDTextLabel.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF279A50267FFCBB00E349F8 /* libLEDTextLabel.dylib */; };
+		CCF614FD2816175800CE1F7D /* LEDTextLabel.h in Resources */ = {isa = PBXBuildFile; fileRef = BF279A53267FFCBB00E349F8 /* LEDTextLabel.h */; };
+		CCF614FE2816175800CE1F7D /* LEDDigitView.h in Resources */ = {isa = PBXBuildFile; fileRef = BF279A61267FFCF700E349F8 /* LEDDigitView.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +141,7 @@
 				BF279A4C267FFCBB00E349F8 /* Headers */,
 				BF279A4D267FFCBB00E349F8 /* Sources */,
 				BF279A4E267FFCBB00E349F8 /* Frameworks */,
+				CCF614FC2816175100CE1F7D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -208,6 +211,15 @@
 			files = (
 				BF279A72268005FF00E349F8 /* Assets.xcassets in Resources */,
 				BF279A75268005FF00E349F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF614FC2816175100CE1F7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF614FD2816175800CE1F7D /* LEDTextLabel.h in Resources */,
+				CCF614FE2816175800CE1F7D /* LEDDigitView.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
